@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    font-size: 62.5%;
+    font-family: 'Ubuntu', sans-serif;
+    position: relative;
+}
+
+.card__container h1 {
+    font-size: 3rem;
+    position: absolute;
+    top: 30rem;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.green {
+    color: green;
+}
+
+.blue {
+    color: blueviolet;
+}
+
+.main__navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1d1d1d;
+}
+
+.navigation-home {
+    margin: 1rem 1.5rem;
+    text-decoration: none;
+    color: white;
+    font-size: 1.4rem;
+}
+
+.search__container {
+    margin: 1rem 2rem;
+    color: white;
+}
+
+.card__container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+}
+
+.card__box {
+    flex: 0 0 25.5rem;
+    margin: 2rem;
+    background-color: #cfcfcf;
+    padding: 1.2rem;
+    
+}
+
+.card__box:not(:first-child) {
+    margin: 1rem;
+}
+
+.card-image {
+    border-radius: 10px;
+    padding: .2rem;
+    transform: scale(1.05);
+    transition: all .2s;
+}
+
+.card-image:hover {
+    transform: scale(1);
+}
+
+.card__details {
+    padding: 1rem;
+    font-size: 1.6rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.airing {
+        width: 100%;
+        text-align: center;
+        background-color: rgb(238, 238, 238);
+        padding: .5rem;
+        border-radius: 20px;
+        margin-bottom: .5rem;
+}
+
+.card__title {
+    width: 100%;
+    text-align: center;
+    padding: .5rem;
+    margin-top: 1rem;
+    font-size: 1.6rem;
+    font-weight: 700;
+}
